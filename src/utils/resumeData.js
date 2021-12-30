@@ -1,7 +1,9 @@
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import YouTubeIcon from '@material-ui/icons/YouTube';
 import WebIcon from '@material-ui/icons/Web';
+import LanguageIcon from '@material-ui/icons/Language';
 
 const resumeData = {
     name: 'Hà Văn Quang',
@@ -92,6 +94,79 @@ const resumeData = {
                 'GitLab',
             ]
         }
+    ],
+
+    projects: [
+        {
+            tag: 'ReactJS',
+            imageUrl: 'https://picsum.photos/300',
+            title: 'Project ReactJS',
+            caption: 'Caption Of Project',
+            description: 'This is my project description. Please fill it in.',
+            links: [
+                { link: '', icon: <YouTubeIcon /> },
+                { link: '', icon: <GitHubIcon /> },
+                { link: '', icon: <LanguageIcon  /> }
+            ]
+        },
+        {
+            tag: 'NodeJS',
+            imageUrl: 'https://picsum.photos/300',
+            title: 'Project NodeJS',
+            caption: 'Caption Of Project',
+            description: 'This is my project description. Please fill it in.',
+            links: [
+                { link: '', icon: <YouTubeIcon /> },
+                { link: '', icon: <GitHubIcon /> },
+                { link: '', icon: <LanguageIcon  /> }
+            ]
+        },
+        {
+            tag: 'Java Spring',
+            imageUrl: 'https://picsum.photos/300',
+            title: 'Project Java Spring',
+            caption: 'Caption Of Project',
+            description: 'This is my project description. Please fill it in.',
+            links: [
+                { link: '', icon: <YouTubeIcon /> },
+                { link: '', icon: <GitHubIcon /> },
+                { link: '', icon: <LanguageIcon /> }
+            ]
+        },
+        {
+            tag: 'ReactJS',
+            imageUrl: 'https://picsum.photos/300',
+            title: 'Project ReactJS',
+            caption: 'Caption Of Project',
+            description: 'This is my project description. Please fill it in.',
+            links: [
+                { link: '', icon: <YouTubeIcon /> },
+                { link: '', icon: <GitHubIcon /> },
+                { link: '', icon: <LanguageIcon  /> }
+            ]
+        },
+        // {
+        //     tag: 'Android',
+        //     imageUrl: 'https://picsum.photos/300',
+        //     title: 'Project ReactJS',
+        //     description: 'This is my project description. Please fill it in.',
+        //     links: [
+        //         { link: '', icon: <YouTubeIcon /> },
+        //         { link: '', icon: <GitHubIcon /> },
+        //         { link: '', icon: <LanguageIcon  /> }
+        //     ]
+        // },
+        // {
+        //     tag: 'ASP.Net',
+        //     imageUrl: 'https://picsum.photos/300',
+        //     title: 'Project ReactJS',
+        //     description: 'This is my project description. Please fill it in.',
+        //     links: [
+        //         { link: '', icon: <YouTubeIcon /> },
+        //         { link: '', icon: <GitHubIcon /> },
+        //         { link: '', icon: <LanguageIcon  /> }
+        //     ]
+        // },
     ]
 }
 
