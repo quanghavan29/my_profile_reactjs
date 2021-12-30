@@ -17,7 +17,7 @@ const Contact = () => {
                             <span></span>
                             <h6 className="section_title_text">Contact Form</h6>
                         </Grid>
-                        <Grid item xs={12}>
+                        <Grid item xs={12} style={{marginTop: 25}}>
                             <Grid container spacing={2}>
                                 <Grid item xs={12} sm={6}>
                                     <TextField fullWidth name="name" label="Name"></TextField>
@@ -41,7 +41,7 @@ const Contact = () => {
                         <span></span>
                         <h6 className="section_title_text">Contact Information</h6>
                     </Grid>
-                    <Grid item xs={12}>
+                    <Grid item xs={12} style={{marginTop: 25}}>
                         <Grid container>
                             <Grid item xs={12}>
                                 <Typography className="contactInfo_item">
