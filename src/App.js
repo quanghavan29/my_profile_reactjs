@@ -1,14 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
 import { Container, Grid } from '@material-ui/core';
 import Profile from './components/Profile/Profile';
 import Header from './components/Header/Header';
 import Resume from './pages/Resume/Resume';
 import Footer from './components/Footer/Footer';
-import Portfolio from './pages/Portfolio/Portfolio';
 
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Switch, Route } from "react-router-dom";
+import AboutMe from './pages/AboutMe/AboutMe';
+import Contact from './pages/Contact/Contact';
+import Project from './pages/Project/Project';
 
 function App() {
   return (
@@ -20,14 +21,24 @@ function App() {
         <Grid item xs>
           <Router>
             <Header />
-            <Switch>
-              <Route path='/portfolio'>
-                <Portfolio />
-              </Route>
-              <Route path='/'>
-                <Resume />
-              </Route>
-            </Switch>
+
+            <div className="main_content">
+              <Switch>
+                <Route path='/project'>
+                  <Project />
+                </Route>
+                <Route path='/about-me'>
+                  <AboutMe />
+                </Route>
+                <Route path='/contact'>
+                  <Contact />
+                </Route>
+                <Route path='/'>
+                  <Resume />
+                </Route>
+              </Switch>
+            </div>
+
           </Router>
 
           <Footer />

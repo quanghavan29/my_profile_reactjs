@@ -10,6 +10,8 @@ import GetAppIcon from '@material-ui/icons/GetApp';
 
 
 import resumeData from '../../utils/resumeData'
+import TimelineSeparator from '@material-ui/lab/TimelineSeparator';
+import TimelineDot from '@material-ui/lab/TimelineDot';
 
 const CustomTimelineItem = ({ title, text, link }) => {
     return (
@@ -46,6 +48,14 @@ const Profile = () => {
                     <CustomTimelineItem title='Phone' text={resumeData.phone} />
                     {/* <CustomTimelineItem title='Email' text={resumeData.email} /> */}
                     <CustomTimelineItem title='School' text={resumeData.school} />
+                    <TimelineItem>
+                        <TimelineSeparator className="separator_padding">
+                            <TimelineDot variant="outlined" className="timeline_dot" />
+                        </TimelineSeparator>
+                        <TimelineContent className="timeline_content">
+                            <Typography className="timelineItem_text"><span>Job:</span> Web Developer</Typography>
+                        </TimelineContent>
+                    </TimelineItem>
                 </CustomTimeline>
                 {/* <br /> */}
                 <div className="btn_container">

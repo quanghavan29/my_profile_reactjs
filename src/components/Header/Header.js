@@ -1,12 +1,7 @@
 import React from 'react'
-import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap'
+import { Navbar, Nav } from 'react-bootstrap'
 import {
     HomeRounded,
-    SchoolRounded,
-    WorkRounded,
-    Facebook,
-    Twitter,
-    Github,
     Telegram,
 } from '@material-ui/icons';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -35,9 +30,9 @@ const Header = (props) => {
                         Resume
                     </Nav.Link>
 
-                    <Nav.Link as={NavLink} to="/portfolio"
-                        className={pathname === "/portfolio" ? "header_link_active" : "header_link"}>
-                        Portfolio
+                    <Nav.Link as={NavLink} to="/project"
+                        className={pathname === "/project" ? "header_link_active" : "header_link"}>
+                        Project
                     </Nav.Link>
                     <Nav.Link as={NavLink} to="/about-me"
                         className={pathname === "/about-me" ? "header_link_active" : "header_link"}>
