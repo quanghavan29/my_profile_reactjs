@@ -30,9 +30,9 @@ const Header = (props) => {
                         Resume
                     </Nav.Link>
 
-                    <Nav.Link as={NavLink} to="/project"
-                        className={pathname === "/project" ? "header_link_active" : "header_link"}>
-                        Project
+                    <Nav.Link as={NavLink} to="/my-projects"
+                        className={pathname === "/my-projects" ? "header_link_active" : "header_link"}>
+                        My Projects
                     </Nav.Link>
                     <Nav.Link as={NavLink} to="/about-me"
                         className={pathname === "/about-me" ? "header_link_active" : "header_link"}>

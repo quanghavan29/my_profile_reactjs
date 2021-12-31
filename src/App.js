@@ -24,7 +24,7 @@ function App() {
 
             <div className="main_content">
               <Switch>
-                <Route path='/project'>
+                <Route path='/my-projects'>
                   <Project />
                 </Route>
                 <Route path='/about-me'>
