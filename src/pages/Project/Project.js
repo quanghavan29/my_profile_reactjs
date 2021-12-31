@@ -12,7 +12,7 @@ const Project = () => {
     return (
         <>
             {/* My Project */}
-            <Grid container className="section" style={{ marginTop: 30 }}>
+            <Grid container className="section">
                 <Grid item className="section_title mb_30">
                     <span></span>
                     <h6 className="section_title_text">My Projects</h6>
