@@ -97,36 +97,15 @@ const resumeData = {
     ],
 
     projects: [
+
+        // Outstanding Project - NOT DONE
         {
             tag: 'ReactJS',
-            imageUrl: 'https://picsum.photos/300',
-            title: 'Project ReactJS',
-            caption: 'Caption Of Project',
-            description: 'This is my project description. Please fill it in.',
-            links: [
-                { link: '', icon: <YouTubeIcon /> },
-                { link: '', icon: <GitHubIcon /> },
-                { link: '', icon: <LanguageIcon  /> }
-            ]
-        },
-        {
-            tag: 'NodeJS',
-            imageUrl: 'https://picsum.photos/300',
-            title: 'Project NodeJS',
-            caption: 'Caption Of Project',
-            description: 'This is my project description. Please fill it in.',
-            links: [
-                { link: '', icon: <YouTubeIcon /> },
-                { link: '', icon: <GitHubIcon /> },
-                { link: '', icon: <LanguageIcon  /> }
-            ]
-        },
-        {
-            tag: 'Java Spring',
-            imageUrl: 'https://picsum.photos/300',
-            title: 'Project Java Spring',
-            caption: 'Caption Of Project',
-            description: 'This is my project description. Please fill it in.',
+            imageUrl: 'https://res.cloudinary.com/fpt-food/image/upload/v1641002950/My%20Projects/NodeJS%20and%20ReactJS/dat_ve_xem_phim_reactjs_pumskg.jpg',
+            title: 'NestJS & ReactJS - Website Đặt Vé Xem Phim',
+            caption: 'NestJS & ReactJS',
+            description: 'Project NestJS & ReactJS - Website Đặt Vé Xem Phim. Thanks for watching!',
+            videoId: 'aLl1Pbtl0YA',
             links: [
                 { link: '', icon: <YouTubeIcon /> },
                 { link: '', icon: <GitHubIcon /> },
@@ -135,38 +114,111 @@ const resumeData = {
         },
         {
             tag: 'ReactJS',
-            imageUrl: 'https://picsum.photos/300',
-            title: 'Project ReactJS',
-            caption: 'Caption Of Project',
-            description: 'This is my project description. Please fill it in.',
+            imageUrl: 'https://res.cloudinary.com/fpt-food/image/upload/v1641002950/My%20Projects/NodeJS%20and%20ReactJS/jira_bugs_clone_reactjs_snhzbl.jpg',
+            title: 'NestJS & ReactJS - Jira Bugs Clone',
+            caption: 'NestJS & ReactJS',
+            description: 'Project NestJS & ReactJS - Jira Bugs Clone. Thanks for watching!',
+            videoId: 'aLl1Pbtl0YA',
             links: [
                 { link: '', icon: <YouTubeIcon /> },
                 { link: '', icon: <GitHubIcon /> },
-                { link: '', icon: <LanguageIcon  /> }
+                { link: '', icon: <LanguageIcon /> }
             ]
         },
-        // {
-        //     tag: 'Android',
-        //     imageUrl: 'https://picsum.photos/300',
-        //     title: 'Project ReactJS',
-        //     description: 'This is my project description. Please fill it in.',
-        //     links: [
-        //         { link: '', icon: <YouTubeIcon /> },
-        //         { link: '', icon: <GitHubIcon /> },
-        //         { link: '', icon: <LanguageIcon  /> }
-        //     ]
-        // },
-        // {
-        //     tag: 'ASP.Net',
-        //     imageUrl: 'https://picsum.photos/300',
-        //     title: 'Project ReactJS',
-        //     description: 'This is my project description. Please fill it in.',
-        //     links: [
-        //         { link: '', icon: <YouTubeIcon /> },
-        //         { link: '', icon: <GitHubIcon /> },
-        //         { link: '', icon: <LanguageIcon  /> }
-        //     ]
-        // },
+        {
+            tag: 'NodeJS',
+            imageUrl: 'https://res.cloudinary.com/fpt-food/image/upload/v1641001541/My%20Projects/NodeJS%20and%20ReactJS/shopphone_nodejs_bl0k05.png',
+            title: 'NodeJS - Phone Store',
+            caption: 'NodeJS',
+            description: 'Project NodeJS - Phone Store. Thanks for watching!',
+            videoId: 'aLl1Pbtl0YA',
+            links: [
+                { link: '', icon: <YouTubeIcon /> },
+                { link: 'https://github.com/quanghavan29/apple_store', icon: <GitHubIcon /> },
+                { link: 'https://shop-phone-nodejs.herokuapp.com/home', icon: <LanguageIcon /> }
+            ]
+        },
+
+        // ReactJS Project - DONE
+        {
+            tag: 'ReactJS',
+            imageUrl: 'https://res.cloudinary.com/fpt-food/image/upload/v1641000892/My%20Projects/NodeJS%20and%20ReactJS/game_bau_cua_reactjs_g58tuc.jpg',
+            title: 'ReactJS - Game Bầu Cua',
+            caption: 'ReactJS',
+            description: 'Project ReactJS - Game Bầu Cua. Thanks for watching!',
+            videoId: 'hY2aWeOBotE',
+            links: [
+                { link: 'https://www.youtube.com/watch?v=hY2aWeOBotE', icon: <YouTubeIcon /> },
+                { link: 'https://github.com/quanghavan29/game_bau_cua_reactjs/tree/master', icon: <GitHubIcon /> },
+                { link: 'https://gamebaucua.surge.sh/', icon: <LanguageIcon /> }
+            ]
+        },
+
+        // Other Projects - DONE
+        {
+            tag: 'Other Projects',
+            imageUrl: 'https://res.cloudinary.com/fpt-food/image/upload/v1640996752/My%20Projects/Other%20Projects/flatshop_home_page_admin_yy0hde.png',
+            title: 'Java Spring - FlatShop',
+            caption: 'Java Spring MVC',
+            description: 'Project Spring MVC - FlatShop. Thanks for watching!',
+            videoId: '0si0qdsfBQI',
+            links: [
+                { link: 'https://www.youtube.com/watch?v=0si0qdsfBQI', icon: <YouTubeIcon /> },
+                { link: 'https://github.com/quanghavan29/FlatShop', icon: <GitHubIcon /> },
+            ]
+        },
+        {
+            tag: 'Other Projects',
+            imageUrl: 'https://res.cloudinary.com/fpt-food/image/upload/v1640996753/My%20Projects/Other%20Projects/luxstay_spkgie.png',
+            title: 'ASP.NET - Luxury Clone',
+            caption: 'ASP.NET',
+            description: 'Project ASP.NET - Luxury Clone. Thanks for watching!',
+            videoId: 'aLl1Pbtl0YA',
+            links: [
+                { link: 'https://www.youtube.com/watch?v=aLl1Pbtl0YA', icon: <YouTubeIcon /> },
+                { link: 'https://github.com/quanghavan29/ASP.NET-MVC', icon: <GitHubIcon /> },
+            ]
+        },
+        {
+            tag: 'Other Projects',
+            imageUrl: 'https://res.cloudinary.com/fpt-food/image/upload/v1641000346/My%20Projects/Other%20Projects/food_app_ykg3k5.jpg',
+            title: 'Android - Food App',
+            caption: 'Android & NestJS',
+            description: 'Project Android - Food App. Thanks for watching!',
+            videoId: '5Kba1mf6IBE',
+            links: [
+                { link: 'https://www.youtube.com/watch?v=5Kba1mf6IBE', icon: <YouTubeIcon /> },
+                { link: 'https://github.com/quanghavan29/Android-FU-Food', icon: <GitHubIcon /> },
+            ]
+        },
+
+        // -------------
+        {
+            tag: 'NodeJS',
+            imageUrl: 'https://res.cloudinary.com/fpt-food/image/upload/v1641002950/My%20Projects/NodeJS%20and%20ReactJS/dat_ve_xem_phim_reactjs_pumskg.jpg',
+            title: 'NestJS & ReactJS - Website Đặt Vé Xem Phim',
+            caption: 'NestJS & ReactJS',
+            description: 'Project NestJS & ReactJS - Website Đặt Vé Xem Phim. Thanks for watching!',
+            videoId: 'aLl1Pbtl0YA',
+            links: [
+                { link: '', icon: <YouTubeIcon /> },
+                { link: '', icon: <GitHubIcon /> },
+                { link: '', icon: <LanguageIcon /> }
+            ]
+        },
+        {
+            tag: 'NodeJS',
+            imageUrl: 'https://res.cloudinary.com/fpt-food/image/upload/v1641002950/My%20Projects/NodeJS%20and%20ReactJS/jira_bugs_clone_reactjs_snhzbl.jpg',
+            title: 'NestJS & ReactJS - Jira Bugs Clone',
+            caption: 'NestJS & ReactJS',
+            description: 'Project NestJS & ReactJS - Jira Bugs Clone. Thanks for watching!',
+            videoId: 'aLl1Pbtl0YA',
+            links: [
+                { link: '', icon: <YouTubeIcon /> },
+                { link: '', icon: <GitHubIcon /> },
+                { link: '', icon: <LanguageIcon /> }
+            ]
+        },
     ]
 }
 

@@ -34,12 +34,17 @@
     font-weight: 400;
 }
 
-.project_dialog .project_dialog_title {
+.project_dialog .MuiDialog-paperWidthSm {
+    max-width: 700px !important;
+    text-align: center;
+}
+
+.project_dialog .project_dialog_title .MuiTypography-h6 {
     font-weight: bold !important;
 }
 
 .project_dialog .project_dialog_image {
-    max-height: 300px;
+    height: 100%;
     width: 100%;
     object-fit: cover;
     object-position: center center;

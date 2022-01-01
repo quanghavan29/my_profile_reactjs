@@ -1,6 +1,7 @@
 import { Card, CardActionArea, CardContent, CardMedia, Grid, Grow, Tab, Tabs, Typography, Dialog, DialogTitle, DialogContent, DialogActions } from '@material-ui/core'
 import React, { useState } from 'react'
 import resumeData from '../../utils/resumeData';
+import YouTube from 'react-youtube';
 
 import './Project.css'
 
@@ -52,7 +53,8 @@ const Project = () => {
 
                 <Dialog open={projectDialog} onClose={() => { setProjectDialog(false) }} className="project_dialog" fullWidth>
                     <DialogTitle onClose={() => { setProjectDialog(false) }} className="project_dialog_title">{projectDialog.title}</DialogTitle>
-                    <img src={projectDialog.imageUrl} alt="image_project.jpg" className="project_dialog_image" />
+                    {/* <img src={projectDialog.imageUrl} alt="image_project.jpg" className="project_dialog_image" /> */}
+                    <YouTube videoId={projectDialog.videoId} className="project_dialog_youtobe"/>
                     <DialogContent>
                         <Typography className="project_dialog_description">{projectDialog.description}</Typography>
                     </DialogContent>
