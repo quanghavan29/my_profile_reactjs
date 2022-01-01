@@ -15,7 +15,7 @@ const resumeData = {
     address: 'Xuân Giang - Sóc Sơn - Hà Nội',
     school: 'FPT University',
     job: 'Web Developer',
-    avatarUrl: 'https://picsum.photos/300',
+    avatarUrl: 'https://res.cloudinary.com/fpt-food/image/upload/v1641068997/My%20Projects/NodeJS%20and%20ReactJS/profile_avatar_kdwi1n.jpg',
     socials: {
         facebook: {
             link: 'https://www.facebook.com/quanghavan29',
