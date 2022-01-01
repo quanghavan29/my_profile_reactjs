@@ -13,7 +13,7 @@ const Footer = () => {
                 <Typography className="footer_copyright">
                     Designed and Developed by <a href="/">Quang Cối</a>
                     <br />
-                    Clone idea from <a href="https://www.facebook.com/TravOnline-107102920886921/">Travonline</a>
+                    Clone idea from <a href="https://www.facebook.com/TravOnline-107102920886921/" target="_blank">Travonline</a>
                 </Typography>
             </div>
         </div>

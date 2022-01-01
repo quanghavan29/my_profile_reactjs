@@ -60,7 +60,7 @@ const Project = () => {
                     </DialogContent>
                     <DialogActions className="project_dialog_actions">
                         {projectDialog?.links?.map((item, index) => (
-                            <a href={item.link} key={index} className="project_dialog_icon">{item.icon}</a>
+                            <a href={item.link} key={index} className="project_dialog_icon" target="_blank">{item.icon}</a>
                         ))}
                     </DialogActions>
                 </Dialog>

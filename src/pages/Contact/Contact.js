@@ -78,7 +78,7 @@ const Contact = () => {
                                 <Grid container className="contact_socials">
                                     {Object.keys(resumeData.socials).map((key) => (
                                         <Grid item key={key} className="contact_socials_icon">
-                                            <a href={resumeData.socials[key].link}>{resumeData.socials[key].icon}</a>
+                                            <a href={resumeData.socials[key].link} target="_blank">{resumeData.socials[key].icon}</a>
                                         </Grid>
                                     ))}
                                 </Grid>
