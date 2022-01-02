@@ -2,6 +2,7 @@ import { Grid, TextField, Typography } from '@material-ui/core'
 import React from 'react'
 import CustomButton from '../../components/Button/Button'
 import resumeData from '../../utils/resumeData';
+import {Telegram} from '@material-ui/icons';
 
 import './Contact.css'
 
@@ -17,7 +18,7 @@ const Contact = () => {
                             <span></span>
                             <h6 className="section_title_text">Contact Form</h6>
                         </Grid>
-                        <Grid item xs={12} style={{marginTop: 25}}>
+                        <Grid item xs={12} style={{ marginTop: 25 }}>
                             <Grid container spacing={2}>
                                 <Grid item xs={12} sm={6}>
                                     <TextField fullWidth name="name" label="Name"></TextField>
@@ -29,7 +30,7 @@ const Contact = () => {
                                     <TextField fullWidth name="message" label="Message" multiline rows={4}></TextField>
                                 </Grid>
                                 <Grid item xs={12} style={{ marginTop: 20 }}>
-                                    <CustomButton text="Submit" />
+                                    <CustomButton text="Submit" icon={<Telegram />} />
                                 </Grid>
                             </Grid>
                         </Grid>
@@ -41,7 +42,7 @@ const Contact = () => {
                         <span></span>
                         <h6 className="section_title_text">Contact Information</h6>
                     </Grid>
-                    <Grid item xs={12} style={{marginTop: 25}}>
+                    <Grid item xs={12} style={{ marginTop: 25 }}>
                         <Grid container>
                             <Grid item xs={12}>
                                 <Typography className="contactInfo_item">

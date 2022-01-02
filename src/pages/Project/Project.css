@@ -24,6 +24,10 @@
     height: 140px;
 }
 
+.custom_card .custom_card_image_favorite {
+    height: 180px;
+}
+
 
 .custom_card .custom_card_title {
     font-weight: bold;

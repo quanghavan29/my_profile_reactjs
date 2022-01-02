@@ -47,7 +47,7 @@ const resumeData = {
     educations: [
         {
             title: 'FPT University - Hà Nội',
-            date: '2018 - Present',
+            date: '09/2018 - 09/2022',
             description: "Your “About me” page forms the first impression of a company or product, puts a name and a face to your business.Your “About me” page forms the first impression of a company or product, puts a name and a face to your business.",
         },
     ],
@@ -217,6 +217,19 @@ const resumeData = {
                 { link: '', icon: <YouTubeIcon /> },
                 { link: '', icon: <GitHubIcon /> },
                 { link: '', icon: <LanguageIcon /> }
+            ]
+        },
+    ],
+
+    favorites: [
+        {
+            title: '#FPTU Talent Show 6',
+            imageUrl: 'https://res.cloudinary.com/fpt-food/image/upload/v1641140896/My%20Projects/About%20Me/FTS6_o4smav.jpg',
+            videoId: 'G9tNeJ9c0FI',
+            description: 'Gặp Mẹ Trong Mơ - Sáo Trúc A4. #FTS6 #FTIC',
+            caption: 'VIDEO',
+            links: [
+                { link: 'https://www.youtube.com/watch?v=G9tNeJ9c0FI', icon: <YouTubeIcon /> },
             ]
         },
     ]
