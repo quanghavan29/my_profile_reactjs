@@ -23,8 +23,8 @@ const Project = () => {
                 <Grid item xs={12}>
                     <Tabs value={tabValue} className="custom_tabs" onChange={(e, newValue) => setTabValue(newValue)}>
                         <Tab label="All" value="All" className={tabValue === 'All' ? 'customTabs_item active' : 'customTabs_item'} />
-                        <Tab label="ReactJS" value="ReactJS" className={tabValue === 'ReactJS' ? 'customTabs_item active' : 'customTabs_item'} />
                         <Tab label="NodeJS" value="NodeJS" className={tabValue === 'NodeJS' ? 'customTabs_item active' : 'customTabs_item'} />
+                        <Tab label="ReactJS" value="ReactJS" className={tabValue === 'ReactJS' ? 'customTabs_item active' : 'customTabs_item'} />
                         <Tab label="Other Projects" value="Other Projects" className={tabValue === 'Other Project' ? 'customTabs_item active' : 'customTabs_item'} />
                     </Tabs>
                 </Grid>
