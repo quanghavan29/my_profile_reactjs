@@ -100,7 +100,7 @@ const resumeData = {
 
         // Outstanding Project - NOT DONE
         {
-            tag: 'ReactJS',
+            tag: 'NodeJS and ReactJS',
             imageUrl: 'https://res.cloudinary.com/fpt-food/image/upload/v1641002950/My%20Projects/NodeJS%20and%20ReactJS/dat_ve_xem_phim_reactjs_pumskg.jpg',
             title: 'NestJS & ReactJS - Website Đặt Vé Xem Phim',
             caption: 'NestJS & ReactJS',
@@ -113,7 +113,7 @@ const resumeData = {
             ]
         },
         {
-            tag: 'ReactJS',
+            tag: 'NodeJS and ReactJS',
             imageUrl: 'https://res.cloudinary.com/fpt-food/image/upload/v1641002950/My%20Projects/NodeJS%20and%20ReactJS/jira_bugs_clone_reactjs_snhzbl.jpg',
             title: 'NestJS & ReactJS - Jira Bugs Clone',
             caption: 'NestJS & ReactJS',
@@ -189,34 +189,6 @@ const resumeData = {
             links: [
                 { link: 'https://www.youtube.com/watch?v=5Kba1mf6IBE', icon: <YouTubeIcon /> },
                 { link: 'https://github.com/quanghavan29/Android-FU-Food', icon: <GitHubIcon /> },
-            ]
-        },
-
-        // -------------
-        {
-            tag: 'NodeJS',
-            imageUrl: 'https://res.cloudinary.com/fpt-food/image/upload/v1641002950/My%20Projects/NodeJS%20and%20ReactJS/dat_ve_xem_phim_reactjs_pumskg.jpg',
-            title: 'NestJS & ReactJS - Website Đặt Vé Xem Phim',
-            caption: 'NestJS & ReactJS',
-            description: 'Project NestJS & ReactJS - Website Đặt Vé Xem Phim. Thanks for watching!',
-            videoId: 'aLl1Pbtl0YA',
-            links: [
-                { link: '', icon: <YouTubeIcon /> },
-                { link: '', icon: <GitHubIcon /> },
-                { link: '', icon: <LanguageIcon /> }
-            ]
-        },
-        {
-            tag: 'NodeJS',
-            imageUrl: 'https://res.cloudinary.com/fpt-food/image/upload/v1641002950/My%20Projects/NodeJS%20and%20ReactJS/jira_bugs_clone_reactjs_snhzbl.jpg',
-            title: 'NestJS & ReactJS - Jira Bugs Clone',
-            caption: 'NestJS & ReactJS',
-            description: 'Project NestJS & ReactJS - Jira Bugs Clone. Thanks for watching!',
-            videoId: 'aLl1Pbtl0YA',
-            links: [
-                { link: '', icon: <YouTubeIcon /> },
-                { link: '', icon: <GitHubIcon /> },
-                { link: '', icon: <LanguageIcon /> }
             ]
         },
     ],
