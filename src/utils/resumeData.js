@@ -120,8 +120,8 @@ const resumeData = {
             description: 'Project NestJS & ReactJS - Jira Bugs Clone. Thanks for watching!',
             videoId: 'goPfSfSaYb0',
             links: [
-                { link: '', icon: <YouTubeIcon /> },
-                { link: '', icon: <GitHubIcon /> },
+                { link: 'https://www.youtube.com/watch?v=goPfSfSaYb0', icon: <YouTubeIcon /> },
+                { link: 'https://github.com/quanghavan29/jira_bugs_clone_reactjs_nestjs/tree/master', icon: <GitHubIcon /> },
                 { link: '', icon: <LanguageIcon /> }
             ]
         },
@@ -133,7 +133,7 @@ const resumeData = {
             description: 'Project NodeJS - Phone Store. Thanks for watching!',
             videoId: 'qzyHBChKD88',
             links: [
-                { link: '', icon: <YouTubeIcon /> },
+                { link: 'https://www.youtube.com/watch?v=qzyHBChKD88', icon: <YouTubeIcon /> },
                 { link: 'https://github.com/quanghavan29/apple_store', icon: <GitHubIcon /> },
                 { link: 'https://shop-phone-nodejs.herokuapp.com/home', icon: <LanguageIcon /> }
             ]
