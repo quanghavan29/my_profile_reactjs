@@ -105,7 +105,7 @@ const resumeData = {
             title: 'NestJS & ReactJS - Website Đặt Vé Xem Phim',
             caption: 'NestJS & ReactJS',
             description: 'Project NestJS & ReactJS - Website Đặt Vé Xem Phim. Thanks for watching!',
-            videoId: 'aLl1Pbtl0YA',
+            videoId: 'goPfSfSaYb0',
             links: [
                 { link: '', icon: <YouTubeIcon /> },
                 { link: '', icon: <GitHubIcon /> },
@@ -118,7 +118,7 @@ const resumeData = {
             title: 'NestJS & ReactJS - Jira Bugs Clone',
             caption: 'NestJS & ReactJS',
             description: 'Project NestJS & ReactJS - Jira Bugs Clone. Thanks for watching!',
-            videoId: 'aLl1Pbtl0YA',
+            videoId: 'goPfSfSaYb0',
             links: [
                 { link: '', icon: <YouTubeIcon /> },
                 { link: '', icon: <GitHubIcon /> },
@@ -131,7 +131,7 @@ const resumeData = {
             title: 'NodeJS - Phone Store',
             caption: 'NodeJS',
             description: 'Project NodeJS - Phone Store. Thanks for watching!',
-            videoId: 'aLl1Pbtl0YA',
+            videoId: 'qzyHBChKD88',
             links: [
                 { link: '', icon: <YouTubeIcon /> },
                 { link: 'https://github.com/quanghavan29/apple_store', icon: <GitHubIcon /> },
