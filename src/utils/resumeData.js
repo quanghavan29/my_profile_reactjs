@@ -16,6 +16,7 @@ const resumeData = {
     school: 'FPT University',
     job: 'Web Developer',
     avatarUrl: 'https://res.cloudinary.com/fpt-food/image/upload/v1641068997/My%20Projects/NodeJS%20and%20ReactJS/profile_avatar_kdwi1n.jpg',
+    myCV: 'https://www.topcv.vn/xem-cv/XQMCUgUBVFYGUQUDWgEABVAAU1YLU1YBVFdWVw0101',
     socials: {
         facebook: {
             link: 'https://www.facebook.com/quanghavan29',
@@ -41,14 +42,17 @@ const resumeData = {
         {
             title: 'OJT NodeJS - FPT Software',
             date: '05/2021 - 11/2021',
-            description: "Your “About me” page forms the first impression of a company or product, puts a name and a face to your business.Your “About me” page forms the first impression of a company or product, puts a name and a face to your business.",
+            description1: "- On 05/2021 - 11/2021, I OJT NodeJS at FPT Software.",
+            description2: "- My main tasks is Restful API design and development.",
+            description3: "- Using typescript with NestJS.",
+            description4: "- Using MySQL on the back end.",
         },
     ],
     educations: [
         {
             title: 'FPT University - Hà Nội',
             date: '09/2018 - 09/2022',
-            description: "Your “About me” page forms the first impression of a company or product, puts a name and a face to your business.Your “About me” page forms the first impression of a company or product, puts a name and a face to your business.",
+            description: "- My major at university is software engineering!",
         },
     ],
 

@@ -33,7 +33,10 @@ const Resume = () => {
                                                 style={{ fontSize: 16, fontWeight: 'bold', marginTop: 0 }}
                                             >{experience.title}</Typography>
                                             <Typography style={{ fontSize: 14, color: '#787878', fontWeight: 'bold', paddingTop: 4 }}>{experience.date}</Typography>
-                                            <Typography style={{ color: 'gray', fontSize: 'small', marginTop: 10 }} cariant="body2">{experience.description}</Typography>
+                                            <Typography style={{ color: 'gray', fontSize: 'small', marginTop: 10 }} cariant="body2">{experience.description1}</Typography>
+                                            <Typography style={{ color: 'gray', fontSize: 'small', marginTop: 10 }} cariant="body2">{experience.description2}</Typography>
+                                            <Typography style={{ color: 'gray', fontSize: 'small', marginTop: 10 }} cariant="body2">{experience.description3}</Typography>
+                                            <Typography style={{ color: 'gray', fontSize: 'small', marginTop: 10 }} cariant="body2">{experience.description4}</Typography>
                                         </TimelineContent>
                                     </TimelineItem>
                                 ))}
