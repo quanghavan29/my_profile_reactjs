@@ -189,7 +189,7 @@ const resumeData = {
             title: 'Android - Food App',
             caption: 'Android & NestJS',
             description: 'Project Android - Food App. Thanks for watching!',
-            videoId: '5Kba1mf6IBE',
+            videoId: '8AMy7oMwRkM',
             links: [
                 { link: 'https://www.youtube.com/watch?v=5Kba1mf6IBE', icon: <YouTubeIcon /> },
                 { link: 'https://github.com/quanghavan29/Android-FU-Food', icon: <GitHubIcon /> },
